@@ -1,8 +1,5 @@
 Mudanças versão 1.0 [31/03]
 
-[Changelog]
-Últimas mudanças do projeto
-
 Estrutura:
 
 * Arquivo de testes (Class) - Criado para executar testes rápidos em uma cópia do código principal
