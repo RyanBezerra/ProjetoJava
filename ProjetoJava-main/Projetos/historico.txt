@@ -1,1 +1,0 @@
-Jogador: pedra | Computador: pedra | Resultado: Empate
