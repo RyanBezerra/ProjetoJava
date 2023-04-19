@@ -1,0 +1,15 @@
+Jogador: pedra | Computador: papel | Resultado: 
+Computador venceu!
+
+Jogador: papel | Computador: pedra | Resultado: 
+Você venceu!
+
+Jogador: papel | Computador: pedra | Resultado: 
+Você venceu!
+
+Jogador: papel | Computador: tesoura | Resultado: 
+Computador venceu!
+
+Jogador: papel | Computador: papel | Resultado: 
+Empate
+
