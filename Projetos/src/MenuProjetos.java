@@ -9,7 +9,7 @@ public class MenuProjetos {
         Scanner input = new Scanner(System.in);
 
         while (true) {
-            System.out.println("Escolha uma opção:");
+            System.out.println("\nEscolha uma opção:");
             System.out.println("1 - Jogo Pedra, Papel e Tesoura");
             System.out.println("2 - Pirâmide de Números");
             System.out.println("3 - Sair");
@@ -23,11 +23,11 @@ public class MenuProjetos {
             } else if (opcao == 3) {
                 break;
             } else {
-                System.out.println("Opção inválida. Tente novamente.");
+                System.out.println("\nOpção inválida. Tente novamente.\n");
             }
         }
 
-        System.out.println("Obrigado por testar!");
+        System.out.println("\nObrigado por testar!\n");
     }
 
     public static void jogarPedraPapelTesoura() {
@@ -42,24 +42,24 @@ public class MenuProjetos {
             String jogadaDoUsuario = input.nextLine();
 
             if (!jogadaDoUsuario.equals("pedra") && !jogadaDoUsuario.equals("papel") && !jogadaDoUsuario.equals("tesoura")) {
-                System.out.println("Opção inválida. Tente novamente.");
+                System.out.println("\nOpção inválida. Tente novamente.\n");
                 continue;
             }
 
             int indiceDaJogadaDoComputador = random.nextInt(escolhas.length);
             String jogadaDoComputador = escolhas[indiceDaJogadaDoComputador];
 
-            System.out.println("O computador escolheu " + jogadaDoComputador + ".");
+            System.out.println("\nO computador escolheu " + jogadaDoComputador + ".");
 
             String resultado;
             if (jogadaDoUsuario.equals(jogadaDoComputador)) {
-                resultado = "Empate";
+                resultado = "\nEmpate\n";
             } else if ((jogadaDoUsuario.equals("pedra") && jogadaDoComputador.equals("tesoura"))
                     || (jogadaDoUsuario.equals("papel") && jogadaDoComputador.equals("pedra"))
                     || (jogadaDoUsuario.equals("tesoura") && jogadaDoComputador.equals("papel"))) {
-                resultado = "Você venceu!";
+                resultado = "\nVocê venceu!\n";
             } else {
-                resultado = "Computador venceu!";
+                resultado = "\nComputador venceu!\n";
             }
 
             historico += "Jogador: " + jogadaDoUsuario + " | Computador: " + jogadaDoComputador + " | Resultado: " + resultado + "\n";
@@ -95,7 +95,7 @@ public class MenuProjetos {
         totalNumeros++;
         }
         }
-        System.out.println("Total de números gerados: " + totalNumeros);
+        System.out.println("\nTotal de números gerados: " + totalNumeros);
         System.out.print("Lista de números gerados: ");
         for (int i = 0; i < numeros.length; i++) {
         System.out.print(String.format("%02d ", numeros[i]));
