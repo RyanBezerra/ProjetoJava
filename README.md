@@ -15,8 +15,6 @@ O arquivo `historico.txt` será salvo no mesmo diretório em que o programa foi 
 
 ## Jogo Pedra, Papel e Tesoura
 
-![Pedra, Papel e Tesoura](imagem_do_jogo.png)
-
 O jogo Pedra, Papel e Tesoura é implementado dentro do método `jogarPedraPapelTesoura()`. Aqui está como funciona:
 
 - Primeiro, são criados dois objetos: um `Scanner` para ler a entrada do usuário e um `Random` para gerar uma jogada aleatória para o computador.
